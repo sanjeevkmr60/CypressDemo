@@ -1,0 +1,23 @@
+{
+    "propertyaddress":"12310 Sunrise Valley Drive, Reston, VA, USA",
+    "downpayment":"10",
+    "loantenure":"12",
+    "purchasevalue":"2000000",    
+    "ssn":"123-45-6789",
+    "approvewages":"67000",
+    "rejectwages":"29000",
+    "sitevisitwages":"34000",
+    "state":"San Francisco",
+    "ein":"12-1234567",
+    "address":"795 Folsom Street",
+    "zip":"CA 94107",
+    "statusapprove":"Approved", 
+    "statusreject":"Reject",
+    "statussitevisit":"Site Visit",
+    "statusfinalreview":"Final Review",
+    "rmstatus":"Visited",
+    "showcasewebsite":"https://www.wavemaker.com/showcase/",
+    "customerwebsite":"https://apps.wavemakeronline.com/Herdius/#/myAccount",
+    "loanprocessorwebsite":"https://apps.wavemakeronline.com/LoanProcessor/#/Main",
+    "rmapp":"https://pk3crz0rw7hl.cloud.wavemakeronline.com/LoanCorp_RM/#/Dashboard"
+}

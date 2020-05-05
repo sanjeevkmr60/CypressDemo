@@ -1,0 +1,96 @@
+What is Cypress?
+  Cypress is a next generation front end testing tool build for modern web applications.
+  Cypress uses JavaScript to write automated tests.
+  Cypress addresses the Key pain points from other automation tools.
+  Cypress is built on Node,js and comes packed as an npm module .
+  As it built node.js,it uses javascript for writing tests.But 90% of coding can be done using  Cypress inbuilt commands which are easy to understand.
+  Cypress makes our test simple when compared with other tools
+  Cypress is having different architecture when you compare it with selenium.
+  We can write faster,easier and more reliable tests using Cypress.
+
+Cypress Ecosystem:
+It is open Source and consists of
+  1.Test Runner(Open source component,Locally Installed) helps us set up  and start writing test cases.
+  2.Dashboard Service(Recording tests)
+       The Dashboard provides you insight into what happened when your test ran.
+
+Install the cypress TestRunner and write tests locally
+    1.Set up tests
+    2.Write tests 
+Build a set up of suite of CI tests,record them and gain powerful insights.
+    1.Run tests
+    2.Record tests
+
+7 ways Cypress is different from :
+  Cypress don't use selenium 
+  Cypress focuses on doing end to end testing scenarios as well.
+  Cypress works only on front end frameworks or websites.
+  Cypress tests only written in javascript
+  Cypress is all in one.
+  Cypress is for developers and QA Engineers
+  Cypress runs much,much faster.
+        (Vie.js,React,ember,Backbobe.js,Angular) applications for Cypress tool
+
+Cypress Features:
+ Time Travel
+ Real time Reloads
+ Spies,Stubs and clocks
+ Consistent results
+ Debuggability
+ Automatic waiting 
+ Network Traffic control
+ Screenshots and Videos.
+ Limitations:
+ Support Limited set of browsers-Chrome,Canary,Electron
+ Page Object model is not supported 
+ Tough to read the data from the files.
+ Third party tool reporting integration is limited.
+
+
+Cypress installation and Project setup:
+ 1.Download Node & NPM
+     https://nodejs.org/en/download/
+ 2.Set NODE_HOME Environment Variable.
+ 3.Create Cypress working folder
+ 4. Generate package.json 
+     Go the folder working and in cmd
+       >npm init 
+          Give package name:
+          Version
+         Description 
+           ,,,,,,,,,
+
+  >dir → created package.json  
+ 5.Install Cypress in cmd of working directory
+    >npm install --save-dev cypress
+ 6.Download Visual Studio code Editor
+    https://code.visualstudio.com/download
+
+TestRunner :
+   Go the Visual Studio code terminal and Cmd
+    node_modules\\.bin\\cypress run 
+
+  Test run Editor will open
+    node_modules\\.bin\\cypress open
+
+To to run all the tests under any directory
+  node_modules\\.bin\\cypress run
+  node_modules\\.bin\\cypress run --headed
+
+Inoder to run only one spec file
+    node_modules\\.bin\\cypress run --spec ‘D:\Cypress\cypress\integration\SampleTests\Alert_spec.js’
+
+
+https://demo.nopcommerce.com/
+
+Locate the Elements:
+   cy.get(selector)
+
+CSS selector:
+  .class
+  [attribute=value]
+  #id
+  .class[attribute=value]
+
+
+cypress run --record --key be821b1c-63a9-421d-82d3-ea465d2eaa5a
