@@ -7,6 +7,7 @@ describe('Http Example',function(){
             url:'https://httpbin.org/get',
         }).then(function(response){
            expect(response.body).have.property('url')
+           expect(response.status).to.deep.equal(200)
         })
     })
 
