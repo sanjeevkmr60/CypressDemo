@@ -1,0 +1,34 @@
+{
+    "url":"https://wavemaker-apps.pramati.com/survey_uat/#/",
+    "loginAdmin":"sanjeev.bandari@wavemaker.com",       
+    "password":"pramati123",
+    "surveyName":"etsyurst3",
+    "pSurvey":"This Survey Is to test the App",
+    "sObj":"Testing the Survey",
+    "sRollTime":"11:00",
+    "sRollSession":"PM",
+    "sStartdate":"Jan 18, 2021",
+    "sEnddate":"Jan 26, 2021",
+    "landingPage":"w2Form2.png,Get Started",
+    "addSection":[        
+      {"section":["w2Form3.png",
+                   "Center",        
+                    {"questions":[ "Question1 section1;optionalYes","Rating: " ]}, 
+                    {"questions":[ "Question2 section1;","Textarea:" ]}                 
+                  ]  
+      },
+      {"section":["w2Form4.png",
+                   "Left",
+                   {"questions":[ "Question1 section2;","Textarea:" ]},
+                   {"questions":[ "Question2 section2;optionalYes","Number:" ]}                   
+                 ]
+      }
+    ],
+    "iMail":"This is an Intimation mail",
+    "attachment":"w2Form4.png",
+    "rmData":"",   
+    "rmEmpConfigure":"This is an Configure for Employee",   
+    "rmManagerConfigure":"This is an Configure for Employee",
+    "dlNames":"WM VisaTeam,Survey Demo,Survey demo evening",
+    "emailIdList":["alekhya.guttikonda@wavemaker.com","abhilash.kaparthi@wavemaker.com"]
+}

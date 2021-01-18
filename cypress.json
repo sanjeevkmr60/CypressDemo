@@ -1,7 +1,11 @@
 {
   "chromeWebSecurity": false,
   "projectId": "i1j3o1",
-  "viewportWidth": 1000,
-  "viewportHeight": 660,
-  "baseURL":"http://httpbin.org/"
+  "viewportWidth": 1400,
+  "viewportHeight": 800,
+  "baseURL":"http://httpbin.org/",
+  "waitForAnimations": false,
+  "animationDistanceThreshold": 50
+
+ 
 }

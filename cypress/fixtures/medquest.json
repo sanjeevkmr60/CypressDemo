@@ -1,5 +1,6 @@
 {
     "patientdashboard":"https://apps.wavemakeronline.com/Medical/#/PatientDashboard",
+    "pharmcistwebsite":"https://apps.wavemakeronline.com/Medical/#/pharma_refill_requests",
     "accept":"true",
     "reject":"false",
     "pName":"Allison Brainard", 

@@ -3,6 +3,7 @@ describe('Http Example',function(){
     it('GET Request',function(){
 
         cy.request({
+            
             method:'GET',
             url:'https://httpbin.org/get',
         }).then(function(response){
